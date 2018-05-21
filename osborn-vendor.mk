@@ -178,7 +178,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/smartisan/osborn/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/smartisan/osborn/proprietary/lib/hw/camera.sdm660.so:system/lib/hw/camera.sdm660.so \
-    vendor/smartisan/osborn/proprietary/lib/libMMBeauty.so:system/lib/libMMBeauty.so \
     vendor/smartisan/osborn/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/smartisan/osborn/proprietary/lib/libSensorManagerHAL.so:system/lib/libSensorManagerHAL.so \
     vendor/smartisan/osborn/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
@@ -190,8 +189,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/lib/libarcsoft_smart_denoise.so:system/lib/libarcsoft_smart_denoise.so \
     vendor/smartisan/osborn/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/smartisan/osborn/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/smartisan/osborn/proprietary/lib/libmmcv.so:system/lib/libmmcv.so \
-    vendor/smartisan/osborn/proprietary/lib/libmmcv_sm.so:system/lib/libmmcv_sm.so \
     vendor/smartisan/osborn/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/smartisan/osborn/proprietary/lib/libmmlib2d_interface.so:system/lib/libmmlib2d_interface.so \
     vendor/smartisan/osborn/proprietary/lib/libmms_gyro_vstab.so:system/lib/libmms_gyro_vstab.so \
@@ -201,10 +198,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/smartisan/osborn/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/smartisan/osborn/proprietary/lib/libsmart_hdr.so:system/lib/libsmart_hdr.so \
-    vendor/smartisan/osborn/proprietary/lib/libsmcv.so:system/lib/libsmcv.so \
     vendor/smartisan/osborn/proprietary/lib/libtt_panorama.so:system/lib/libtt_panorama.so \
     vendor/smartisan/osborn/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-    vendor/smartisan/osborn/proprietary/lib/libyuvutils.so:system/lib/libyuvutils.so \
     vendor/smartisan/osborn/proprietary/lib/sensors.hal.tof.so:system/lib/sensors.hal.tof.so \
     vendor/smartisan/osborn/proprietary/lib64/hw/fingerprint.goodix.so:system/lib64/hw/fingerprint.goodix.so \
     vendor/smartisan/osborn/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
@@ -453,7 +448,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libmmcamera_faceproc2.so:system/vendor/lib/libmmcamera_faceproc2.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
-    vendor/smartisan/osborn/proprietary/vendor/lib/libmmcamera_hdr_tt_lib.so:system/vendor/lib/libmmcamera_hdr_tt_lib.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libmmcamera_hvx_add_constant.so:system/vendor/lib/libmmcamera_hvx_add_constant.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libmmcamera_hvx_grid_sum.so:system/vendor/lib/libmmcamera_hvx_grid_sum.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
