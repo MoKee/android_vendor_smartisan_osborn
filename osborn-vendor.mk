@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/smartisan/osborn/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/smartisan/osborn/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
+    vendor/smartisan/osborn/proprietary/bin/ifaad:system/bin/ifaad \
     vendor/smartisan/osborn/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/smartisan/osborn/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/smartisan/osborn/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
@@ -187,6 +188,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/lib/libarcsoft_picselfie_algorithm.so:system/lib/libarcsoft_picselfie_algorithm.so \
     vendor/smartisan/osborn/proprietary/lib/libarcsoft_refocus_sm.so:system/lib/libarcsoft_refocus_sm.so \
     vendor/smartisan/osborn/proprietary/lib/libarcsoft_smart_denoise.so:system/lib/libarcsoft_smart_denoise.so \
+    vendor/smartisan/osborn/proprietary/lib/libifaa_daemon.so:system/lib/libifaa_daemon.so \
+    vendor/smartisan/osborn/proprietary/lib/libifaa_jni.so:system/lib/libifaa_jni.so \
     vendor/smartisan/osborn/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/smartisan/osborn/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/smartisan/osborn/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -203,9 +206,12 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/lib/sensors.hal.tof.so:system/lib/sensors.hal.tof.so \
     vendor/smartisan/osborn/proprietary/lib64/hw/fingerprint.goodix.so:system/lib64/hw/fingerprint.goodix.so \
     vendor/smartisan/osborn/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
+    vendor/smartisan/osborn/proprietary/lib64/lib_ifaa_tac.so:system/lib64/lib_ifaa_tac.so \
     vendor/smartisan/osborn/proprietary/lib64/libgf_ca.so:system/lib64/libgf_ca.so \
     vendor/smartisan/osborn/proprietary/lib64/libgf_hal.so:system/lib64/libgf_hal.so \
     vendor/smartisan/osborn/proprietary/lib64/libgoodixfingerprintd_binder.so:system/lib64/libgoodixfingerprintd_binder.so \
+    vendor/smartisan/osborn/proprietary/lib64/libifaa_daemon.so:system/lib64/libifaa_daemon.so \
+    vendor/smartisan/osborn/proprietary/lib64/libifaa_jni.so:system/lib64/libifaa_jni.so \
     vendor/smartisan/osborn/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/smartisan/osborn/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/smartisan/osborn/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
@@ -792,6 +798,7 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     ims \
     imssettings \
+    ifaa_fw \
     qcrilhook \
     dm-tool \
     logic_volume

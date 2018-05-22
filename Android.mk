@@ -193,6 +193,16 @@ LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := ifaa_fw
+LOCAL_MODULE_OWNER := smartisan
+LOCAL_SRC_FILES := proprietary/framework/ifaa_fw.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := qcrilhook
 LOCAL_MODULE_OWNER := smartisan
 LOCAL_SRC_FILES := proprietary/framework/qcrilhook.jar
