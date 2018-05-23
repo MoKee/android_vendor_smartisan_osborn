@@ -46,14 +46,13 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/smartisan/osborn/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/smartisan/osborn/proprietary/etc/GyroOffset_db.config:system/etc/GyroOffset_db.config \
-    vendor/smartisan/osborn/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
-    vendor/smartisan/osborn/proprietary/etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
-    vendor/smartisan/osborn/proprietary/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \
-    vendor/smartisan/osborn/proprietary/etc/acdbdata/QRD/QRD_Handset_cal.acdb:system/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
-    vendor/smartisan/osborn/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
-    vendor/smartisan/osborn/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
-    vendor/smartisan/osborn/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
-    vendor/smartisan/osborn/proprietary/etc/acdbdata/QRD/QRD_workspaceFile.qwsp:system/etc/acdbdata/QRD/QRD_workspaceFile.qwsp \
+    vendor/smartisan/osborn/proprietary/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Bluetooth_cal.acdb \
+    vendor/smartisan/osborn/proprietary/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_General_cal.acdb:system/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_General_cal.acdb \
+    vendor/smartisan/osborn/proprietary/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Global_cal.acdb:system/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Global_cal.acdb \
+    vendor/smartisan/osborn/proprietary/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Handset_cal.acdb:system/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Handset_cal.acdb \
+    vendor/smartisan/osborn/proprietary/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Hdmi_cal.acdb:system/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Hdmi_cal.acdb \
+    vendor/smartisan/osborn/proprietary/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Headset_cal.acdb:system/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Headset_cal.acdb \
+    vendor/smartisan/osborn/proprietary/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Speaker_cal.acdb:system/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Speaker_cal.acdb \
     vendor/smartisan/osborn/proprietary/etc/acdbdata/adsp_avs_config.acdb:system/etc/acdbdata/adsp_avs_config.acdb \
     vendor/smartisan/osborn/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
     vendor/smartisan/osborn/proprietary/etc/camera/csidtg_chromatix.xml:system/etc/camera/csidtg_chromatix.xml \
@@ -178,6 +177,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/smartisan/osborn/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/smartisan/osborn/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/smartisan/osborn/proprietary/lib/hw/audio.primary.sdm660.so:system/lib/hw/audio.primary.sdm660.so \
     vendor/smartisan/osborn/proprietary/lib/hw/camera.sdm660.so:system/lib/hw/camera.sdm660.so \
     vendor/smartisan/osborn/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/smartisan/osborn/proprietary/lib/libSensorManagerHAL.so:system/lib/libSensorManagerHAL.so \
@@ -204,6 +204,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/lib/libtt_panorama.so:system/lib/libtt_panorama.so \
     vendor/smartisan/osborn/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/smartisan/osborn/proprietary/lib/sensors.hal.tof.so:system/lib/sensors.hal.tof.so \
+    vendor/smartisan/osborn/proprietary/lib64/hw/audio.primary.sdm660.so:system/lib64/hw/audio.primary.sdm660.so \
     vendor/smartisan/osborn/proprietary/lib64/hw/fingerprint.goodix.so:system/lib64/hw/fingerprint.goodix.so \
     vendor/smartisan/osborn/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
     vendor/smartisan/osborn/proprietary/lib64/lib_ifaa_tac.so:system/lib64/lib_ifaa_tac.so \
