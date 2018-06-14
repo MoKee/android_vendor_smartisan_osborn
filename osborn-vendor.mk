@@ -613,9 +613,7 @@ PRODUCT_PACKAGES += \
     TimeService \
     embms \
     shutdownlistener \
-    QtiTetherService \
     qcrilmsgtunnel \
-    ims \
     imssettings \
     ifaa_fw \
     qcrilhook \
