@@ -160,6 +160,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/smartisan/osborn/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/smartisan/osborn/proprietary/lib/libsmart_hdr.so:system/lib/libsmart_hdr.so \
+    vendor/smartisan/osborn/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/smartisan/osborn/proprietary/lib/libtt_panorama.so:system/lib/libtt_panorama.so \
     vendor/smartisan/osborn/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/smartisan/osborn/proprietary/lib/sensors.hal.tof.so:system/lib/sensors.hal.tof.so \
@@ -172,6 +173,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/lib64/libgoodixfingerprintd_binder.so:system/lib64/libgoodixfingerprintd_binder.so \
     vendor/smartisan/osborn/proprietary/lib64/libifaa_daemon.so:system/lib64/libifaa_daemon.so \
     vendor/smartisan/osborn/proprietary/lib64/libifaa_jni.so:system/lib64/libifaa_jni.so \
+    vendor/smartisan/osborn/proprietary/lib64/libtinycompress.so:system/lib64/libtinycompress.so \
     vendor/smartisan/osborn/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/smartisan/osborn/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/smartisan/osborn/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
