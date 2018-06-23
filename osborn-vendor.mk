@@ -479,8 +479,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/mmi_camera.so:system/vendor/lib/mmi_camera.so \
-    vendor/smartisan/osborn/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so:system/vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so \
-    vendor/smartisan/osborn/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so:system/vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/rfsa/adsp/dirac_resource.so:system/vendor/lib/rfsa/adsp/dirac_resource.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so:system/vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_800h_skel.so:system/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_800h_skel.so \
