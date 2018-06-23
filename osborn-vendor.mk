@@ -163,8 +163,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/lib/libtt_panorama.so:system/lib/libtt_panorama.so \
     vendor/smartisan/osborn/proprietary/lib/sensors.hal.tof.so:system/lib/sensors.hal.tof.so \
     vendor/smartisan/osborn/proprietary/lib64/hw/audio.primary.sdm660.so:system/lib64/hw/audio.primary.sdm660.so \
-    vendor/smartisan/osborn/proprietary/lib64/hw/fingerprint.goodix.so:system/lib64/hw/fingerprint.goodix.so \
     vendor/smartisan/osborn/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
+    vendor/smartisan/osborn/proprietary/lib64/hw/fingerprint.goodix.so:system/lib64/hw/fingerprint.goodix.so \
     vendor/smartisan/osborn/proprietary/lib64/lib_ifaa_tac.so:system/lib64/lib_ifaa_tac.so \
     vendor/smartisan/osborn/proprietary/lib64/libgf_ca.so:system/lib64/libgf_ca.so \
     vendor/smartisan/osborn/proprietary/lib64/libgf_hal.so:system/lib64/libgf_hal.so \
