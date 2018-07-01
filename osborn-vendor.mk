@@ -17,8 +17,6 @@
 PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/smartisan/osborn/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
-    vendor/smartisan/osborn/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
-    vendor/smartisan/osborn/proprietary/vendor/bin/cnss_diag:system/vendor/bin/cnss_diag \
     vendor/smartisan/osborn/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/smartisan/osborn/proprietary/vendor/bin/hvdcp_opti:system/vendor/bin/hvdcp_opti \
     vendor/smartisan/osborn/proprietary/bin/ifaad:system/bin/ifaad \
@@ -30,13 +28,10 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/smartisan/osborn/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/smartisan/osborn/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
-    vendor/smartisan/osborn/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
-    vendor/smartisan/osborn/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
     vendor/smartisan/osborn/proprietary/vendor/bin/radish:system/vendor/bin/radish \
     vendor/smartisan/osborn/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/smartisan/osborn/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/smartisan/osborn/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
-    vendor/smartisan/osborn/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/smartisan/osborn/proprietary/vendor/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
     vendor/smartisan/osborn/proprietary/etc/GyroOffset_db.config:system/etc/GyroOffset_db.config \
     vendor/smartisan/osborn/proprietary/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Bluetooth_cal.acdb \
@@ -128,7 +123,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/etc/sensor_denoise_table/imx386/ISO800_3968x2976.ncf:system/etc/sensor_denoise_table/imx386/ISO800_3968x2976.ncf \
     vendor/smartisan/osborn/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/smartisan/osborn/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:system/vendor/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/smartisan/osborn/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
+    vendor/smartisan/osborn/proprietary/vendor/etc/thermal-engine.conf:system/vendor/etc/thermal-engine.conf \
     vendor/smartisan/osborn/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/smartisan/osborn/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/smartisan/osborn/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
@@ -172,12 +167,10 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/smartisan/osborn/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/smartisan/osborn/proprietary/vendor/bin/qti:system/vendor/bin/qti \
-    vendor/smartisan/osborn/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/smartisan/osborn/proprietary/vendor/firmware/libpn553_fw.so:system/vendor/firmware/libpn553_fw.so \
     vendor/smartisan/osborn/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
     vendor/smartisan/osborn/proprietary/vendor/lib/hw/activity_recognition.sdm660.so:system/vendor/lib/hw/activity_recognition.sdm660.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libSonyIMX386PdafLibrary.so:system/vendor/lib/libSonyIMX386PdafLibrary.so \
-    vendor/smartisan/osborn/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -446,7 +439,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
-    vendor/smartisan/osborn/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
@@ -518,8 +510,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
-    vendor/smartisan/osborn/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
-    vendor/smartisan/osborn/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
@@ -530,8 +520,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libaptX_encoder.so:system/vendor/lib64/libaptX_encoder.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
-    vendor/smartisan/osborn/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
-    vendor/smartisan/osborn/proprietary/vendor/lib64/libcsm_data.so:system/vendor/lib64/libcsm_data.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
@@ -546,7 +534,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libpdmapper.so:system/vendor/lib64/libpdmapper.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libpdnotifier.so:system/vendor/lib64/libpdnotifier.so \
-    vendor/smartisan/osborn/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
@@ -569,7 +556,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
-    vendor/smartisan/osborn/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
@@ -580,10 +566,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libbtnv \
-    libthermalclient \
-    libtime_genoff \
     QtiTelephonyService \
-    TimeService \
     embms \
     shutdownlistener \
     qcrilmsgtunnel \
@@ -656,6 +639,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/lib64/vendor.qti.hardware.qteeconnector@1.0.so:system/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/smartisan/osborn/proprietary/lib64/vendor.qti.hardware.vpp@1.1.so:system/lib64/vendor.qti.hardware.vpp@1.1.so \
     vendor/smartisan/osborn/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
+    vendor/smartisan/osborn/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
+    vendor/smartisan/osborn/proprietary/vendor/bin/cnss_diag:$(TARGET_COPY_OUT_VENDOR)/bin/cnss_diag \
     vendor/smartisan/osborn/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
     vendor/smartisan/osborn/proprietary/vendor/bin/energy-awareness:$(TARGET_COPY_OUT_VENDOR)/bin/energy-awareness \
     vendor/smartisan/osborn/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
@@ -666,8 +651,12 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
     vendor/smartisan/osborn/proprietary/vendor/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server \
     vendor/smartisan/osborn/proprietary/vendor/bin/msm_irqbalance:$(TARGET_COPY_OUT_VENDOR)/bin/msm_irqbalance \
+    vendor/smartisan/osborn/proprietary/vendor/bin/pm-proxy:$(TARGET_COPY_OUT_VENDOR)/bin/pm-proxy \
+    vendor/smartisan/osborn/proprietary/vendor/bin/pm-service:$(TARGET_COPY_OUT_VENDOR)/bin/pm-service \
     vendor/smartisan/osborn/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/smartisan/osborn/proprietary/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon \
+    vendor/smartisan/osborn/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
+    vendor/smartisan/osborn/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/smartisan/osborn/proprietary/vendor/bin/xtwifi-client:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-client \
     vendor/smartisan/osborn/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
     vendor/smartisan/osborn/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
@@ -766,6 +755,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/lib/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-color-convertor.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libmm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-disp-apis.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libmm-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qdcm.so \
+    vendor/smartisan/osborn/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqisl.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
@@ -783,6 +773,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/lib/libslimclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libslimclient.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libsmwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmwrapper.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssd.so \
+    vendor/smartisan/osborn/proprietary/vendor/lib/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalclient.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtzdrmgenprov.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libulp2.so \
@@ -882,6 +873,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-color-convertor.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libmm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-disp-apis.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libmm-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-qdcm.so \
+    vendor/smartisan/osborn/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqisl.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libqseed3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqseed3.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libquipc_os_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libquipc_os_api.so \
@@ -896,6 +888,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libsettings.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsettings.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libslimclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libslimclient.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
+    vendor/smartisan/osborn/proprietary/vendor/lib64/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalclient.so \
+    vendor/smartisan/osborn/proprietary/vendor/lib64/libthermalioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalioctl.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtzdrmgenprov.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libulp2.so \
@@ -921,9 +915,11 @@ PRODUCT_PACKAGES += \
     libgpustats \
     libloc_api_v02 \
     libsdm-disp-vndapis \
+    libtime_genoff \
     CNEService \
     com.qualcomm.location \
     dpmserviceapp \
+    TimeService \
     vendor.qti.hardware.alarm-V1.0-java
 PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.perf@1.0-service \
