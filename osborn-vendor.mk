@@ -28,6 +28,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/smartisan/osborn/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/smartisan/osborn/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
+    vendor/smartisan/osborn/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
+    vendor/smartisan/osborn/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
     vendor/smartisan/osborn/proprietary/vendor/bin/radish:system/vendor/bin/radish \
     vendor/smartisan/osborn/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/smartisan/osborn/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
@@ -439,6 +441,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
+    vendor/smartisan/osborn/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
@@ -534,6 +537,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libpdmapper.so:system/vendor/lib64/libpdmapper.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libpdnotifier.so:system/vendor/lib64/libpdnotifier.so \
+    vendor/smartisan/osborn/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
@@ -651,8 +655,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
     vendor/smartisan/osborn/proprietary/vendor/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server \
     vendor/smartisan/osborn/proprietary/vendor/bin/msm_irqbalance:$(TARGET_COPY_OUT_VENDOR)/bin/msm_irqbalance \
-    vendor/smartisan/osborn/proprietary/vendor/bin/pm-proxy:$(TARGET_COPY_OUT_VENDOR)/bin/pm-proxy \
-    vendor/smartisan/osborn/proprietary/vendor/bin/pm-service:$(TARGET_COPY_OUT_VENDOR)/bin/pm-service \
     vendor/smartisan/osborn/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/smartisan/osborn/proprietary/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon \
     vendor/smartisan/osborn/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
@@ -755,7 +757,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/lib/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-color-convertor.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libmm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-disp-apis.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libmm-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qdcm.so \
-    vendor/smartisan/osborn/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqisl.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
@@ -873,7 +874,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-color-convertor.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libmm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-disp-apis.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libmm-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-qdcm.so \
-    vendor/smartisan/osborn/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqisl.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libqseed3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqseed3.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libquipc_os_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libquipc_os_api.so \
