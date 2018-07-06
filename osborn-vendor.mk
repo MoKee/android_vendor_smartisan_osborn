@@ -17,6 +17,8 @@
 PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/smartisan/osborn/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
+    vendor/smartisan/osborn/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
+    vendor/smartisan/osborn/proprietary/vendor/bin/cnss_diag:system/vendor/bin/cnss_diag \
     vendor/smartisan/osborn/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/smartisan/osborn/proprietary/vendor/bin/hvdcp_opti:system/vendor/bin/hvdcp_opti \
     vendor/smartisan/osborn/proprietary/bin/ifaad:system/bin/ifaad \
@@ -677,8 +679,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/lib64/vendor.qti.hardware.qteeconnector@1.0.so:system/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/smartisan/osborn/proprietary/lib64/vendor.qti.hardware.vpp@1.1.so:system/lib64/vendor.qti.hardware.vpp@1.1.so \
     vendor/smartisan/osborn/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
-    vendor/smartisan/osborn/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
-    vendor/smartisan/osborn/proprietary/vendor/bin/cnss_diag:$(TARGET_COPY_OUT_VENDOR)/bin/cnss_diag \
     vendor/smartisan/osborn/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
     vendor/smartisan/osborn/proprietary/vendor/bin/energy-awareness:$(TARGET_COPY_OUT_VENDOR)/bin/energy-awareness \
     vendor/smartisan/osborn/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
