@@ -90,6 +90,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/etc/camera/s5k4e8_sunny_chromatix.xml:system/etc/camera/s5k4e8_sunny_chromatix.xml \
     vendor/smartisan/osborn/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/smartisan/osborn/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/smartisan/osborn/proprietary/vendor/etc/drc/drc_cfg_5.1.txt:system/vendor/etc/drc/drc_cfg_5.1.txt \
+    vendor/smartisan/osborn/proprietary/vendor/etc/drc/drc_cfg_AZ.txt:system/vendor/etc/drc/drc_cfg_AZ.txt \
     vendor/smartisan/osborn/proprietary/etc/dualcalData.data:system/etc/dualcalData.data \
     vendor/smartisan/osborn/proprietary/etc/eis_configs/BMI160_vstab_db_1080p_preview_0.config:system/etc/eis_configs/BMI160_vstab_db_1080p_preview_0.config \
     vendor/smartisan/osborn/proprietary/etc/eis_configs/BMI160_vstab_db_1080p_video_0.config:system/etc/eis_configs/BMI160_vstab_db_1080p_video_0.config \
@@ -161,12 +163,14 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/etc/sensor_denoise_table/imx386/ISO800_3968x2976.ncf:system/etc/sensor_denoise_table/imx386/ISO800_3968x2976.ncf \
     vendor/smartisan/osborn/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/smartisan/osborn/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:system/vendor/etc/sensors/sensor_def_qcomdev.conf \
+    vendor/smartisan/osborn/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
+    vendor/smartisan/osborn/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/smartisan/osborn/proprietary/vendor/etc/thermal-engine.conf:system/vendor/etc/thermal-engine.conf \
     vendor/smartisan/osborn/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/smartisan/osborn/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/smartisan/osborn/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
     vendor/smartisan/osborn/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
-    vendor/smartisan/osborn/proprietary/lib/hw/audio.primary.sdm660.so:system/lib/hw/audio.primary.sdm660.so \
+    vendor/smartisan/osborn/proprietary/vendor/lib/hw/audio.primary.sdm660.so:system/vendor/lib/hw/audio.primary.sdm660.so \
     vendor/smartisan/osborn/proprietary/lib/hw/camera.sdm660.so:system/lib/hw/camera.sdm660.so \
     vendor/smartisan/osborn/proprietary/lib/libSensorManagerHAL.so:system/lib/libSensorManagerHAL.so \
     vendor/smartisan/osborn/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
@@ -189,10 +193,10 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/smartisan/osborn/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/smartisan/osborn/proprietary/lib/libsmart_hdr.so:system/lib/libsmart_hdr.so \
-    vendor/smartisan/osborn/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
+    vendor/smartisan/osborn/proprietary/vendor/lib/libtinycompress.so:system/vendor/lib/libtinycompress.so \
     vendor/smartisan/osborn/proprietary/lib/libtt_panorama.so:system/lib/libtt_panorama.so \
     vendor/smartisan/osborn/proprietary/lib/sensors.hal.tof.so:system/lib/sensors.hal.tof.so \
-    vendor/smartisan/osborn/proprietary/lib64/hw/audio.primary.sdm660.so:system/lib64/hw/audio.primary.sdm660.so \
+    vendor/smartisan/osborn/proprietary/vendor/lib64/hw/audio.primary.sdm660.so:system/vendor/lib64/hw/audio.primary.sdm660.so \
     vendor/smartisan/osborn/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
     vendor/smartisan/osborn/proprietary/lib64/hw/fingerprint.goodix.so:system/lib64/hw/fingerprint.goodix.so \
     vendor/smartisan/osborn/proprietary/lib64/lib_ifaa_tac.so:system/lib64/lib_ifaa_tac.so \
@@ -201,7 +205,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/lib64/libgoodixfingerprintd_binder.so:system/lib64/libgoodixfingerprintd_binder.so \
     vendor/smartisan/osborn/proprietary/lib64/libifaa_daemon.so:system/lib64/libifaa_daemon.so \
     vendor/smartisan/osborn/proprietary/lib64/libifaa_jni.so:system/lib64/libifaa_jni.so \
-    vendor/smartisan/osborn/proprietary/lib64/libtinycompress.so:system/lib64/libtinycompress.so \
+    vendor/smartisan/osborn/proprietary/vendor/lib64/libtinycompress.so:system/vendor/lib64/libtinycompress.so \
     vendor/smartisan/osborn/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/smartisan/osborn/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/smartisan/osborn/proprietary/vendor/bin/qti:system/vendor/bin/qti \
@@ -489,6 +493,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+    vendor/smartisan/osborn/proprietary/vendor/lib/libqtigef.so:system/vendor/lib/libqtigef.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libremosaic_daemon.so:system/vendor/lib/libremosaic_daemon.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/smartisan/osborn/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
@@ -587,6 +592,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libqti_performance.so:system/vendor/lib64/libqti_performance.so \
+    vendor/smartisan/osborn/proprietary/vendor/lib64/libqtigef.so:system/vendor/lib64/libqtigef.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/smartisan/osborn/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
