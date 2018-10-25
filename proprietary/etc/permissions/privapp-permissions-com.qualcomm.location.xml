@@ -10,7 +10,6 @@
     <privapp-permissions package="com.qualcomm.location">
         <permission name="android.permission.CONTROL_LOCATION_UPDATES" />
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
-        <permission name="android.permission.MANAGE_USERS"/>
     </privapp-permissions>
     <privapp-permissions package="com.qualcomm.location.XT">
         <permission name="android.permission.MANAGE_DEVICE_ADMINS"/>
